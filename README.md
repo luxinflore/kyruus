@@ -5,9 +5,12 @@ Coding Challenge for Kyruus Team Orko
 Python 3
 
 ### Program Scope ###
-Input: Unsorted CSV file
-CLI arguments for execution: python3 <csv input file> <column to sort>   
+Input: Unsorted CSV file 
+			--> sample_csv_input.csv
+CLI arguments: python3 <program to execute> <csv input file> <column to sort>  
+			--> python3 csv_sorting_program.py sample_csv_input.csv City
 Output: Sorted CSV file (descending string order)
+			--> sorted_csv_output.csv
 
 The program scope takes the input of a .csv file type and outputs a sorted version of that .csv in descending string 
 order based on the column specified. String order is defined as the number of characters in a given string value. The 
